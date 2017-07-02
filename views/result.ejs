@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KTS</title>
+
+		<link rel="stylesheet" type="text/css" href="../public/css/bootstrap.css">
+
+		<link rel="stylesheet" type="text/css" href="../public/resultstyle.css">
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  			<div class="navbar-header">
+   				<a class="navbar-brand" href="home.ejs"><b>KTS</b></a>
+  			</div>
+		</nav>
+		
+		<div class="col-lg-offset-3 col-lg-6 input-box" align="center">
+			<div class="input-group input-group-sm" id="from">
+				<span class="input-group-addon glyph" id="sizing-addon1">►</span>
+				
+				<input type="text" class="form-control places" placeholder="From" aria-describedby="sizing-addon1">
+			</div>
+
+			<div class="input-group input-group-sm" id="to">
+				<span class="input-group-addon glyph" id="sizing-addon1">►</span>
+			  
+				<input type="text" class="form-control places" placeholder="To" aria-describedby="sizing-addon1">
+			</div>
+			<button type="button" class="btn btn-primary" id="btn-submit">Submit</button>
+
+			<hr>
+		</div>
+
+		<div class="col-lg-offset-3 col-lg-6 services">
+			<table class="table table-hover"> 
+				<thead> 
+					<tr> 
+						<th>Bus No</th> 
+						
+						<th>Type</th> 
+						
+						<th>Time</th> 
+
+						<th>Fare</th>
+					</tr> 
+				</thead> 
+
+				<tbody>
+					<a href="routes.ejs">
+						<tr> 
+							<td>685</td> 
+							
+							<td>City Fast</td> 
+							
+							<td>8:00</td> 
+
+							<td>12</td>
+						</tr> 
+					</a> 
+					<a href="routes.ejs">
+						<tr> 
+							<td>909</td> 
+
+							<td>A/C Low Floor</td> 
+
+							<td>12:00</td> 
+
+							<td>24</td>
+						</tr> 
+					</a>
+					<a href="routes.ejs">
+						<tr> 
+							<td>764</td> 
+
+							<td>Super Fast</td> 
+
+							<td>16:00</td> 
+
+							<td>23</td>
+						</tr> 
+					</a>
+				</tbody> 
+			</table>
+		</div>
+	</body>
+</html>

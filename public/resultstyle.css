@@ -1,0 +1,62 @@
+body{
+	background-color: #211c20;
+	margin-top: 70px;
+}
+
+#from{
+	margin-top: 20px;
+}
+
+#to{
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+.places{
+	background-color: #211c20 !important;
+	border-radius: 0 !important;
+	border-color: #6f5a6b;
+	max-width: 100%;
+	height: auto; 
+	color: white;
+}
+
+
+.input-box button{
+	background-color: #40363E;
+	border-style: solid;
+	border-color: #6f5a6b;
+	border-radius: 0 !important;
+	margin-bottom: 10px;
+}
+
+.glyph{
+	background-color: #211C20 !important;
+	color: #6f5a6b;
+	border-color: #6f5a6b;
+	border-radius: 0 !important;
+}
+
+table{
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.verticalLine {
+	margin-top: 50px;
+  	border-left: thick solid #ff0000;
+  	border-color: black;
+}
+
+ul{
+	margin-left: -42px;
+	font-size: 20px;
+	color: white;
+}
+
+li{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

@@ -1,0 +1,58 @@
+
+
+#header{
+	background-image: url("images/header.jpg");
+	background-position: center top;
+    background-size: 100% auto;
+    padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+	border-bottom: black;
+    border-bottom-style: solid;
+    vertical-align: middle !important;
+}
+
+h1{
+	font-size: 8vw;
+	vertical-align: middle;
+}
+
+body{
+	background-color: #211c20;
+}
+
+#from{
+	margin-top: 20px;
+}
+
+#to{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.places{
+	background-color: #211c20 !important;
+	border-radius: 0 !important;
+	border-color: #6f5a6b;
+	max-width: 100%;
+	height: auto; 
+	color: white;
+}
+.input-box{
+	position: fixed;
+    top: 50%;
+}
+
+.input-box button{
+	background-color: #40363E;
+	border-style: solid;
+	border-color: #6f5a6b;
+	border-radius: 0 !important;
+}
+
+.glyph{
+	background-color: #211C20 !important;
+	color: #6f5a6b;
+	border-color: #6f5a6b;
+	border-radius: 0 !important;
+}
